@@ -1,0 +1,76 @@
+/////////////////////////// TABLE OF CATEGORIES
+
+
+            <!-- <div>
+                <table class="categories-layout">
+                    <tr>
+                        <tr class="categories-navigation-left categories-list">
+                            <td>Zvieratá</td>
+                            <td>Architektúra</td>
+                            <td>Vozidlá</td>
+                            <td>Charakteri</td>
+                            <td>Cultúra a História</td>
+                            <td>Elektronika</td>
+                            <td>Jedlo</td>
+                        </tr>
+                        <tr class="categories-navigation-left categories-list">
+                            <td>Nábitok</td>
+                            <td>Príroda</td>
+                            <td>Ľudia</td>
+                            <td>Cestovanie</td>
+                            <td>Technológia a veda</td>
+                            <td>Šport</td>
+                            <td>Zbrane a armáda</td>
+                        </tr>
+                    </tr>
+                    <tr class=" categories-navigation-right categories-list a-right">
+                        <td>Najlepšie predávané</td>
+                        <td>Animované</td>
+                        <td>PBR</td>
+                        <td>Nízko poligonové</td>
+                        <td>Vysoko poligonované</td>
+                        <td>3D skenovanie</td>
+                    </tr>
+                </table>
+            </div> -->
+
+
+/////////////////////////// SEARCH BAR
+
+
+                    <!-- <div class="intro-search">
+                        <input type="text" placeholder="dsfsdfsdfsdfsdfsdfsdf">
+                        <button type="submit">
+                            <img src="../images/icons/search2.png" alt="search icon">
+                        </button>
+                    </div> -->
+
+
+////////////////////////// NAVBAR DROPDOWN
+
+
+/* .dropdown {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+    .dropdown-content {
+        display: flex;
+        background-color: #2F2D2E;
+        min-width: 160px;
+        z-index: 1;
+    }
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: inline;
+            text-align: left;
+            vertical-align: middle;
+
+        }
+            .dropdown-content a:hover {
+                background-color: #5E5A5C;
+                display: block;
+            } */

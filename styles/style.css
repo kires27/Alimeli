@@ -1,0 +1,43 @@
+/*
+    fonts:
+        https://fontjoy.com
+    background: 
+        https://wallpapersafari.com/w/ifngkY
+    map:
+        https://www.embedgooglemap.net/
+    intro links hover:
+        https://codepen.io/jstn/pen/zuDst
+    flip cards:
+        https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card
+    interactive web 3d models: 
+        https://www.vectary.com/
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&family=Hind:wght@600&family=Oxygen:wght@300&display=swap');
+
+:root { 
+    --f-title: 'Hind', sans-serif;
+    --f-title2: 'Assistant', sans-serif;
+    --f-description: 'Oxygen', sans-serif;
+
+    --c-classic-0: black;
+    --c-classic-1: white;
+    --c-main-dark: #19171A;
+    --c-secondary-dark: #45433E;
+    --c-low-dark: #959794;
+    --c-primary: #E9322E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--c-main-dark);
+}
+
+/* UPDATES
+- names of color variables changed 
+- content container
+- map
+*/
