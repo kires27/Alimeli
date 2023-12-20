@@ -1,0 +1,277 @@
+<!-- TODO:
+    scroll bar
+    js buttons
+ -->
+
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../styles/container.css">
+    <link rel="stylesheet" href="../styles/navbar_footer.css">
+
+    <title>Alimeli Homepage</title>
+</head>
+
+<body>
+
+    <main class="m-c-intro">
+        <!-- header -->
+        <div class="header-menu">
+            <ul class="menu">
+                <li><img src="../images/full logo.png"></li>
+                <li class="media-block">
+                    <a href="#sub-pages" id="3dmodel-btn-link">3D modelovanie</a>
+                    <a href="#sub-pages" id="3dprint-btn-link">3D tlac</a>
+                    <a href="#sub-pages" id="web-btn-link">Tvorba webu</a>
+                    <a href="#sub-pages" id="logo-btn-link">Tvorba loga</a>
+                    <a href="#sub-pages" id="ad-poster-btn-link">Tvorba textovej reklamy</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- intro -->
+        <div class="block-background">
+            <p class="intro-description"> Kvalita je znakom úspechu </p>
+            <ul>
+                <li style="color: white;">Sme malá kreatívna firma. Zaoberáme sa mnohými servismi. Pracovníci z ALIMELI ponúkajú priateľský a jednoduchý prístup k zákazníikom. 
+                <li style="color: white;">Naše spolahlivé služby zaručujú, že Váš tovar bezpečne dorazí na akékolvek miesto na svete.
+                    V centre nášho záujmu je predovšetkým zákazník.
+                    Rozvíjame sa tým, že reagujeme na jeho očakávania a potreby.</li>
+            </ul>    
+        </div>
+    </main>
+
+    <!-- container -->
+    <container class="container">
+
+        <!-- sub_pages -->
+        <main class="m-c-bg" id="sub-pages">
+            <div class="d-section">
+                <div class="d-content-panel">
+                    <ul>
+                        <li id="3dmodel-btn">
+                            <!-- <p>3D MODELOVANIE</p> -->
+                            <img src="../images/icons/3d modeling-2.png" alt="3d model">
+                        </li>
+                        <li id="3dprint-btn">
+                            <!-- <p>3D TLAČ</p> -->
+                            <img src="../images/icons/3d printer2.png" alt="3d print">
+                        </li>
+                        <li id="web-btn">
+                            <!-- <p>TVORBA WEBU</p> -->
+                            <img src="../images/icons/web creation.png" alt="web creation">
+                        </li>
+                        <li id="logo-btn">
+                            <!-- <p>TVORBA LOGA</p> -->
+                            <img src="../images/icons/logo creation.png" alt="">
+                        </li>
+                        <li id="ad-poster-btn">
+                            <!-- <p>TVORBA REKLAMY</p> -->
+                            <img src="../images/icons/ads_marketing.png" alt="ads creation">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-content" id="content-container"> <!-- CONTENT ON FIRST LOAD --> </div>
+            </div>
+        </main>
+
+
+        <!-- kontakty -->
+        <main class="m-c-contacts" id="company-contacts">
+            <h1 class="intro-slogan"> O NÁS </h1>
+
+            <div class="d-horizontal-cards">
+                <div class="d-flip-card d-card-1">
+                    <div class="d-flip-card-back">
+                        <br><br>
+                        <span>MENO:</span>
+                        <p>Alexander Daniel</p>
+                        <span>E-MAIL:</span>
+                        <p>alexander.daniel@gmail.com</p>
+                        <span>TELEFÓN:</span>
+                        <p>+421 956 246 189</p>
+                    </div>
+                </div>
+                <br>            
+                <div class="d-flip-card d-card-2">
+                    <div class="d-flip-card-back">
+                        <br><br>
+                        <span>MENO:</span>
+                        <p>Erik Kovárik</p>
+                        <span>E-MAIL:</span>
+                        <p>erik.kovarik@gmail.com</p>
+                        <span>TELEFÓN:</span>
+                        <p>+421 945 123 566</p>
+                    </div>
+                </div>
+                <br>
+                <div class="d-flip-card d-card-3">
+                    <div class="d-flip-card-back">
+                        <br><br>
+                        <span>MENO:</span>
+                        <p>Jakub Bačík</p>
+                        <span>E-MAIL:</span>
+                        <p>jakub.bacik@gmail.com</p>
+                        <span>TELEFÓN:</span>
+                        <p>+421 978 456 123</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-horizontal-p"></div>
+            
+            <ul class="social">
+                <li><a href=https://sk-sk.facebook.com target="_blank"><img src="../images/icons/facebook-logo.png"></a></li>
+                <li><a href=https://www.instagram.com/ target="_blank"><img src="../images/icons/instagram-logo.png"></a></li>
+                <li><a href=https://github.com/ target="_blank"><img src="../images/icons/github-logo.png"></a></li>
+            </ul>
+
+            <div class="contacts-google-map">
+                <iframe class="contacts-google-map" src="https://maps.google.com/maps?q=Holl%C3%A9ho%201380/34,%20905%2001%20Senica&t=k&z=17&ie=UTF8&iwloc=&output=embed"></iframe>
+            </div>
+        </main>
+
+    </container>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="inner-footer">
+            <p>
+                © 2021 Copyright: Alimeli.com
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+                
+
+    <container class="d-invisible-swipe-block"> <!-- container obtaining sub pages -->
+        <!-- 3d modelovanie -->
+        <div id="3dmodel" class="d-content-media-block">
+            <div class="d-intro-part1">
+                <h1 class="intro-slogan"> 3D modelovanie </h1>
+                <p class="intro-description"> Vyrobíme Vám vysoko kvalitné 3D modely u Alimeli. </p>
+                <ul>
+                    <li>Výroba 3D modelov podľa Vašich predstáv.</li>
+                    <li>Vyrobíme 3D modely pomocou najnovších 3D technológií a a použijeme najkvalitnejšie materiály od spoľahlivých dodávateľov.</li>
+                    <li>Možnosť rýchlej tlače  3D modelu vo formáte STL.</li>
+                    <li><b>Cena: Dohodou</b></li>
+                </ul>                 
+            </div>
+
+            <div class="d-vertical-p"></div>
+
+            <div class="d-intro-part2">
+                <!-- TODO when not active overlay with transparency text "press shift to zoom" -->
+                <iframe src="https://app.vectary.com/p/1Hhy1wv5i9GMyy6cyLxVFo/" frameborder="0" alt="model" class="i-part2-model"></iframe>
+                
+            </div>
+        </div>
+
+        <!-- 3d tlac -->
+        <div id="3dprint">
+            <div class="d-intro-part1">
+                <h1 class="intro-slogan"> 3D tlač </h1>
+                <p class="intro-description"> Vysoko kvalitná 3D tlač na zakázku </p>
+                <ul> 
+                    <li> Povedzte nám o Vašej zakázke. My sa s Vami spojíme a upresníme realizáciu. </li>
+                    <li> Overíme či Váš návrh je možný vytlačit. Pokiaľ máme nápad na zlepšenie, ihneď sa s vami poradíme a nájdeme vhodné riešenie. </li>
+                    <li>Na vašej objednávke budú pracovať odbornící, ktorí vám poradia ohľadne správne zvoleného typu tlače a materiálu.</li>
+                    <li>Najrozšírenejšia technológia 3D tlače FDM/FFF.</li>
+                    <li>Technológia SLA (stereolitografia).</li>
+                    <li>Technológia SLS</li>
+                    <li><b>Cena: Dohodou</b></li>
+                </ul>
+            </div>
+
+            <div class="d-vertical-p"></div>
+
+            <div class="d-intro-part2">
+                <img src="../images/3dprint.jpg" alt="model" class="i-part2-model">
+            </div>
+        </div>
+
+        <!-- web creation -->
+        <div id="web-creation">
+            <div class="d-intro-part1">
+                <h1 class="intro-slogan"> Tvorba webu </h1>
+                <p class="intro-description"> Tvorba webu je zložitá záležitosť. Zverte to do rúk odborníkov z ALIMELI. </p>
+                <ul> 
+                    <li> Odborníci z ALIMELI Vám vytvoria modernú, prehľadnú a zaroveň originálnu web stránku. </li>
+                    <li> Web stránka bude kompatibilná na všetkých zariadeniach</li>
+                    <li> Vašej vlastnej stránke spravíme promo ako napríklad posielanie e-mailových newsletterrú, zviditelnenie na sociálných sieťách alebo použijeme klúčové slova na ľahšie vyhľadavnie web stránky. </li>
+                    <li> Zodpovedáme za služby, ktoré poskytujeme. V prípade pochybenia zodpovedáme za škodu v plnom rozsahu. </li>
+                    <li><b>Cena: 50€/h</b></li>
+                </ul>
+            </div>
+
+            <div class="d-vertical-p"></div>
+
+            <div class="d-intro-part2">
+                <img src="../images/web-sec.jpg" alt="model" class="i-part2-model">
+            </div>
+        </div>
+
+        <!-- logo creation -->
+        <div id="logo-creation">
+            <div class="d-intro-part1">
+                <h1 class="intro-slogan"> Tvorba loga </h1>
+                <p class="intro-description"> Logo je vizitka, súčasť prvého i posledného dojmu, jedným z hlavných identifikátorov a známkou kvality. </p>
+                <ul> 
+                    <li> Vytvoríme Vám kvalitné logo vyhotovené presne podľa vašich predstáv! </li>
+                    <li> Neobmedzený počet prerábania loga. </li>
+                    <li> Vaše logo dodáme za čo najkratší čas, tak aby ste nemuseli zbytočne čakať. </li>
+                    <li> Dodanie finálného loga v plnej kvalite vo formáte .eps, .pdg, .svg, .png + ďalšie formáty na vyžiadanie. </li>
+                    <li> Našou hlavnou prioritou je spokojnosť zákazníka ku ktorej je kľúčom originálna tvorba.</li>
+                    <li>
+                        <b>Cena:</b>
+                        <br> Jednoduché: 50€
+                        <br> Základné: 80€
+                        <br> Komplikované: 110€
+                    </li>
+                </ul>
+            </div>
+
+            <div class="d-vertical-p"></div>
+
+            <div class="d-intro-part2">
+                <img src="../images/logo creation.jpg" alt="model" class="i-part2-model">
+            </div>
+        </div>
+
+        <!-- reklamy -->
+        <div id="ad-poster">
+            <div class="d-intro-part1">
+                <h1 class="intro-slogan"> Tvorba reklamy </h1>
+                <p class="intro-description"> Potrebujete sa zviditelniť? ALIMELI Vám to zaručí! </p>
+                <ul> 
+                    <li> Pri tvorbe stratégie sa pozrieme na Váš biznis do hĺbky, a ukážeme Vám nové obchodné príležitosti.</li>
+                    <li> Natočíme pre Vás krátké promo videá s propagáciou na sociálných médiách alebo YouTube </li>
+                    <li> Ak je potrebné dať na „veľkú plochu veľký odkaz“, máme s takýmito realizáciami dosť skúseností.  Banner, plachta, veľkoplošný polep – tak sa to bežne nazýva – toto Vám zrealizujeme k spokojnosti.  </li>
+                </ul>
+            </div>
+
+            <div class="d-vertical-p"></div>
+
+            <div class="d-intro-part2">
+                <img src="../images/reklama.jpg" alt="model" class="i-part2-model">
+            </div>
+        </div>
+
+    </container>
+
+
+    <script src="../scripts/content.js"></script>
+</body>
+</html>
